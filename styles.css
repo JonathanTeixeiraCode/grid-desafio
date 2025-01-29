@@ -1,0 +1,25 @@
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+    justify-content: space-between;
+    align-items: center;
+   .botoes {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   }
+
+}
+.container-geral {
+        display: grid;
+        grid-template-columns: 218px repeat(4, 1fr);
+        .item {
+            padding: 10px;
+        }
+
+}
+.container-geral > div:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1 / 4;
+}
